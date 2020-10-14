@@ -1,0 +1,18 @@
+
+= Weforward Gateway Console
+
+Weforward Gateway Console 是维护网关的控制台工具
+
+== 使用方式
+
+[source]
+----
+java -jar console.jar
+----
+
+或
+
+[source]
+----
+java -jar console.jar [command] [command-params]
+----
