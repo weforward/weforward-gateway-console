@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.weforward</groupId>
 	<artifactId>weforward-gateway-console</artifactId>
-	<version>1.1.0</version>
+	<version>1.1.214422</version>
 	<name>weforward-gateway-console</name>
 	<url>http://weforward.cn</url>
 	<description>weforward module</description>
@@ -37,7 +34,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.13.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -58,7 +55,7 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>weforward-protocol</artifactId>
-			<version>1.1.0</version>
+			<version>1.2.1.214272</version>
 		</dependency>
 	</dependencies>
 
