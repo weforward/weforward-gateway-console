@@ -26,8 +26,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<scm>
-		<url>http://svn.navboy.com/omnigis/honinyun/weforward/trunk/weforward-gateway-console</url>
-		<tag>http://svn.navboy.com/omnigis/honinyun/weforward/tags/weforward-gateway-console</tag>
+		<url>https://github.com/weforward/weforward-gateway-console.git</url>
+		<tag>https://github.com/weforward/weforward-gateway-console.git</tag>
 	</scm>
 
 	<dependencies>
@@ -39,23 +39,18 @@
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-core</artifactId>
-			<version>1.0.9</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
-			<version>1.0.9</version>
+			<version>1.2.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>jcl-over-slf4j</artifactId>
-			<version>1.7.2</version>
+			<version>1.7.25</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>weforward-protocol</artifactId>
-			<version>1.2.1.214272</version>
+			<version>1.2.2</version>
 		</dependency>
 	</dependencies>
 
@@ -81,7 +76,7 @@
 					<plugin>
 						<groupId>cn.weforward</groupId>
 						<artifactId>build-maven-plugin</artifactId>
-						<version>1.1.0</version>
+						<version>1.2.0</version>
 						<configuration>
 							<mainVersion>${main.version}</mainVersion>
 							<outputDirectory>bin</outputDirectory>
